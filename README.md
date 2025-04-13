@@ -17,8 +17,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/nutrition-survey-bot.git
-cd nutrition-survey-bot
+git clone https://github.com/aiti1403/nutrition_bot
+cd nutrition_bot
 ```
 
 2. Установите необходимые зависимости:
@@ -26,7 +26,7 @@ cd nutrition-survey-bot
 pip install aiogram aiosqlite
 ```
 
-3. Создайте файл `config.py` и добавьте в него токен вашего бота:
+3. Отредактируйте файл main.py, добавив в него токен вашего бота:
 ```python
 BOT_TOKEN = "ваш_токен_бота"
 ```
