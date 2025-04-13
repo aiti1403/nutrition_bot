@@ -10,7 +10,7 @@ from database.database import create_tables
 logging.basicConfig(level=logging.INFO)
 
 # Токен бота (замените на свой)
-BOT_TOKEN = "8188855240:AAEc8nEaKcbp2mdkXXearU5ZRfujBgg9V0A"
+BOT_TOKEN = ""
 
 # Инициализация бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
